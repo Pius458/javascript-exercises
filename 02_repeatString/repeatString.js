@@ -1,5 +1,7 @@
 const repeatString = function() {
-  return ("hey" * 3);
+  let word = "hey";
+  let repeatWord = word.repeat(3);
+  return repeatWord;
 };
 
 // Do not edit below this line
